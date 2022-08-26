@@ -1,0 +1,122 @@
+@import "../../styles/responsive";
+.login {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    overflow: hidden;
+
+    .login-conten {
+        position: relative;
+        .form-login {
+            // flex: 1;
+            max-width: 500px;
+            width: 100%;
+            margin: auto;
+            // padding: 40px 0;
+            .login-title {
+                color: var(--text-color);
+                font-size: 5rem;
+                font-weight: 500;
+            }
+            .title-sup {
+                margin: 15px 0 25px;
+                color: var(--color-gray);
+            }
+            .sub_checkbox {
+                color: var(--text-color);
+                font-weight: 500;
+                user-select: none;
+            }
+            .btn-submit {
+                margin: 30px 0 20px;
+                padding: 15px;
+                // color: var(--text-color);
+                color: #fff;
+                background-color: var(--color-light-black);
+                border-radius: 4px;
+                // display: block;
+                width: 100%;
+                font-weight: 600;
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+            .btn-sing-in__gogogle {
+                margin-top: 10px;
+                color: var(--text-color);
+                background-color: var(--white-color);
+                border: 1px solid var(--color-light-black);
+            }
+        }
+        .check-account {
+            text-align: center;
+            color: var(--color-gray);
+        }
+        .confirm-account {
+            font-weight: 600;
+            color: var(--text-color);
+            font-style: oblique;
+            cursor: pointer;
+        }
+
+        .wrappper-img {
+            position: absolute;
+            height: 100%;
+            width: 50vw;
+
+            transition: all 0.3s linear;
+
+            background-image: url("../../assets/image/banner10.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+        }
+    }
+    .content-img {
+        background-color: var(--color-light-white2);
+        color: var(--white-color);
+        .title,
+        .author {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        .author {
+            margin: 30px 0 20px;
+        }
+        .info {
+            // margin-top: 20px;
+            .founder {
+                font-weight: 500;
+                font-size: 1.8rem;
+            }
+            .desgin-by {
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+        }
+        .btn-icon {
+            --size: 50px;
+            width: var(--size);
+            height: var(--size);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            border: 1px solid var(--white-color);
+            .icon {
+                font-weight: 600;
+            }
+        }
+    }
+    @include maxw(767px) {
+        .login-conten-form-wrapp {
+            transition: 0.3s all linear;
+        }
+        .form-control-wrapp {
+            width: 100vw;
+        }
+        .wrappper-img {
+            display: none !important;
+        }
+    }
+}

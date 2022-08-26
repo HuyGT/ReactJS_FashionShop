@@ -1,0 +1,110 @@
+@import "../../styles/responsive";
+.checkout-pay {
+    font-size: 1.6rem;
+    background-color: var(--color-light-blue);
+    padding: 50px 0;
+    min-height: 100vh;
+    color: var(--text-color);
+    overflow: hidden;
+
+    --width: 400px;
+
+    .pay-checkout {
+        width: calc(100% - (var(--width) + 40px));
+        background-color: var(--white-color);
+        border-radius: 6px;
+        padding: 40px;
+
+        .infomation-pay {
+            margin-top: 50px;
+        }
+        .checkout-method {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: var(--color-light-gray);
+            border: 1px solid transparent;
+        }
+        .checkout-method.active {
+            background-color: var(--color-light-blue2);
+            border: 1px solid #6a5af9;
+        }
+        .info-title {
+            color: var(--text-color);
+            font-weight: 500;
+        }
+    }
+    .btn-submit {
+        // width: 100%;
+        margin-top: 40px;
+        border-radius: 4px;
+        padding: 15px;
+        display: block;
+        background-color: #6a5af9;
+        color: #fff;
+    }
+    .title {
+        display: inline-block;
+        color: var(--text-color);
+        font-size: 3rem;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    .pay-order {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: var(--width);
+        width: 100%;
+        background: var(--white-color);
+        padding: 40px;
+        border-radius: 6px;
+        box-shadow: rgba(151, 135, 162, 0.2) 0px 8px 24px 15px;
+        .order-list::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+        .order-item {
+        }
+        .title-name {
+            color: var(--text-color);
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .title-price {
+            color: red;
+        }
+        .order-bott {
+            border-top: 1px solid var(--color-pink);
+            & h2 {
+                color: var(--text-color);
+            }
+        }
+    }
+    @include maxw(1023px) {
+        .pay-checkout {
+            width: 100%;
+        }
+        .pay-order {
+            position: relative;
+            max-width: 100%;
+        }
+    }
+    @include maxw(767px) {
+        .pay-checkout {
+            width: 100%;
+            .deliv-method-wrapp {
+                display: grid;
+            }
+        }
+        .pay-order {
+            position: relative;
+            max-width: 100%;
+        }
+        .payment-methods-wrapp {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

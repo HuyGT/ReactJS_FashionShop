@@ -1,0 +1,71 @@
+@import "../../styles/responsive";
+.shop-man {
+    font-size: 1.6rem;
+    margin-bottom: 100px;
+    background-color: var(--white-color);
+    .shop-man-slider_slogan {
+        color: var(--color-light-gray);
+    }
+    .shop-man-content-top {
+        margin: 100px 0;
+        color: var(--text-color);
+        .shop-man-content-top-image {
+            border-radius: 6px;
+            opacity: 0.8;
+        }
+        .shop-man-content-top-slogan__wrapp {
+            padding: 50px;
+            margin: 0;
+            max-width: 500px;
+            width: 100%;
+            font-size: 2rem;
+        }
+        .shop-man-content-top-title {
+            color: var(--text-color);
+            font-weight: 500;
+            line-height: 1.4;
+            font-size: 6rem;
+            font-family: "Playfair Display", serif;
+        }
+        .shop-man-content-top_sub {
+            line-height: 2;
+            margin: 10px 0 40px;
+        }
+    }
+    .banner {
+        margin: 100px 0;
+        margin-top: 70px;
+        background-image: url("../../assets/image/banner17.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        background-position: 50% 75%;
+
+        position: relative;
+        .banner-conten {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            max-width: 800px;
+            width: 100%;
+            color: var(--white-color);
+            text-align: center;
+
+            text-shadow: 0 13.36px 8.896px var(--text-color), 0 -2px 1px var(--color-gray);
+            & h3 {
+                text-transform: uppercase;
+                font-size: 4rem;
+                font-weight: 500;
+            }
+        }
+    }
+    @include maxw(1023px) {
+        .shop-man-content-top {
+            flex-direction: column !important;
+        }
+        .shop-man-content-top-slogan__wrapp {
+            display: none;
+        }
+    }
+}

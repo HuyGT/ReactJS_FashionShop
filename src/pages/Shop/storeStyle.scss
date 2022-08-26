@@ -1,0 +1,95 @@
+@import "../../styles/responsive";
+.shop-store {
+    background-color: var(--white-color);
+    .store_nav-wrapp {
+        margin: 50px 0;
+        padding: 50px 0;
+        background-color: var(--color-pink);
+        font-size: 1.6rem;
+
+        .store_nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--text-color);
+
+            background-color: var(--white-color);
+        }
+        .title {
+            color: var(--text-color);
+            flex: 1;
+            padding: 30px 0;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        .directional {
+            flex: 1;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        .search-wrapp {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 0 50px;
+            justify-content: end;
+            .search {
+                background-color: var(--color-pink);
+                padding: 10px;
+                padding-right: 50px;
+
+                width: 100%;
+                height: auto;
+                border-radius: 20px;
+            }
+            .icon-search,
+            .icon-hear {
+                --size: 20px;
+                width: var(--size);
+                height: var(--size);
+                display: inline-block;
+                font-size: 3rem;
+            }
+            .icon-search {
+                right: 20px;
+                cursor: pointer;
+                top: 50%;
+                height: 100%;
+                transform: translateY(-50%);
+                position: absolute;
+                transition: all 0.3 linear;
+            }
+        }
+    }
+    .shop-content {
+        display: flex;
+        // padding-top: 50px;
+        margin-bottom: 100px;
+        .shop-wrapp-left {
+            width: 300px;
+            font-size: 1.6rem;
+        }
+        .shop-wrapp-right {
+            flex: 1;
+        }
+    }
+    @include maxw(767px) {
+        .store_nav-wrapp {
+            .title {
+                display: none;
+            }
+        }
+        .store_nav-wrapp .search-wrapp {
+            padding: 0 0 0 50px;
+        }
+        .search {
+            padding: 10px !important;
+            width: inherit !important;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+    }
+}

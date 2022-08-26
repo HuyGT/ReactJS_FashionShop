@@ -1,0 +1,17 @@
+.paging {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 30px;
+    gap: 20px;
+
+    font-size: 1.6rem;
+
+    .btn-paging {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        color: var(--text-color);
+    }
+}

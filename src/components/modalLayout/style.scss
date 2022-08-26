@@ -1,0 +1,18 @@
+.modal-layout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: var(--color-modal);
+
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+.isShow-modal {
+    opacity: 1;
+    visibility: inherit;
+}

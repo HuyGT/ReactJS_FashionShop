@@ -1,0 +1,84 @@
+@import "../../styles/responsive";
+.footer {
+    padding: 70px 0;
+    color: var(--white-color);
+    background-color: var(--color-light-black);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .menu_footer-wrapp {
+        display: flex;
+        flex: 1;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .title {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 2.4rem;
+        margin-bottom: 25px;
+        color: var(--white-color);
+    }
+    .menu_footer {
+        max-width: calc(100% / 4);
+        width: 100%;
+        .nav_menu-footer {
+            .nav_menu-link {
+                padding: 0 30px 0 0;
+                display: inline-block;
+                font-size: 1.2rem;
+                line-height: 3.4;
+                color: var(--white-color);
+            }
+        }
+    }
+    .connect-social {
+        --size: 70px;
+        // background-color: var(--);
+        .wrapp-image-social {
+            padding-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .wrapp-img {
+            width: var(--size);
+            height: var(--size);
+
+            display: block;
+            cursor: pointer;
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+        .desc {
+            margin-top: 20px;
+            text-align: center;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+    }
+    @include maxw(767px) {
+        .menu_footer-wrapp {
+            flex-direction: column;
+            .menu_footer {
+                min-width: 100%;
+            }
+        }
+    }
+}
+.copyright {
+    background-color: var(--color-light-black2);
+    padding: 30px;
+    & p {
+        text-align: center;
+        font-size: 1.4rem;
+        color: var(--white-color);
+        opacity: 0.6;
+    }
+}

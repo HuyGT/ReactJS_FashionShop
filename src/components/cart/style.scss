@@ -1,0 +1,97 @@
+.cart-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 2.5rem;
+    position: fixed;
+    transform: translateX(60%);
+    right: 0;
+    top: 40%;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    transition: all 0.3s linear;
+    box-shadow: rgba(100, 100, 111, 0.4) -3px 7px 20px 0px;
+    z-index: 100;
+    cursor: pointer;
+
+    &:hover {
+        right: 0;
+        transform: translateX(0);
+        color: var(--white-color);
+        background-color: var(--black-color);
+    }
+}
+.listCart::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+.cart {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 350px;
+    width: 100%;
+    background-color: var(--color-light-gray);
+    z-index: 9999;
+    & > h2 {
+        color: var(--text-color);
+    }
+
+    .pay-cart {
+        --size: 30px;
+        font-size: 1.6rem;
+        width: 100%;
+        padding: var(--size);
+        position: absolute;
+        bottom: 0;
+        border-top-left-radius: var(--size);
+        border-top-right-radius: var(--size);
+        background-color: var(--white-color);
+
+        .cart-total {
+            display: flex;
+            justify-content: space-between;
+            color: var(--text-color);
+            margin-bottom: 20px;
+            & span {
+                font-weight: 500;
+            }
+        }
+
+        .btn-pay {
+            font-size: 2rem;
+            color: var(--white-color);
+            padding: 8px;
+            width: 100%;
+            background-color: var(--black-color);
+            text-transform: uppercase;
+        }
+    }
+
+    .cart-item {
+        font-size: 1.4rem;
+        .cart-item_title {
+            color: var(--text-color);
+            font-size: 1.3rem;
+            line-height: 1.4;
+        }
+        .cart-item_title + span {
+            color: var(--text-color);
+        }
+        .amount {
+            color: var(--text-color);
+            background-color: var(--white-color);
+            display: inline-block;
+            padding: 2px;
+        }
+        .amount-quantity {
+            width: 12px;
+            padding: 0;
+            text-align: center;
+        }
+    }
+}

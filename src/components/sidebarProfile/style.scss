@@ -1,0 +1,71 @@
+@import "../../styles/responsive";
+.sidebarProfile {
+    width: var(--siderbar-width);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: var(--white-color);
+    transition: all 0.3s linear;
+    .title_name {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-weight: 500;
+        color: var(--text-color);
+    }
+    .sidebarProfile-bottom {
+        border-top: 1px solid var(--color-pink);
+    }
+}
+.menu-profile-responsive {
+    display: none;
+}
+@include maxw(1023px) {
+    .modal-sidebarProfile-responsive {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(51, 51, 51, 0.255);
+        z-index: 9;
+        transition: all 0.2s ease-in;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .modal-sidebarProfile-responsive.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    .sidebarProfile {
+        bottom: 0;
+        top: 0;
+        transform: translateX(-200%);
+    }
+    .sidebarProfile.active {
+        transform: translateX(0);
+        width: 50vw;
+    }
+    .menu-profile-responsive {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        font-size: 2.5rem;
+        position: fixed;
+        right: 0;
+        top: 20%;
+        background-color: var(--white-color);
+        color: var(--text-color);
+        transition: all 0.3s linear;
+        box-shadow: rgba(100, 100, 111, 0.4) -3px 7px 20px 0px;
+        z-index: 100;
+        cursor: pointer;
+        &:hover {
+            color: var(--white-color);
+            background-color: var(--black-color);
+        }
+    }
+}

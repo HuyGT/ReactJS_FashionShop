@@ -1,0 +1,924 @@
+{
+  "products": [
+    {
+      "productName": "Áo gió 2 mặt",
+      "price": 52,
+      "quantity": 996,
+      "gender": [
+        "male"
+      ],
+      "size": [
+        "m",
+        "l",
+        "s"
+      ],
+      "color": [
+        "green",
+        "pink",
+        "black"
+      ],
+      "categoryId": 1,
+      "description": "Là 1 cái áo",
+      "image": "https://cf.shopee.vn/file/db85a18d4beb307b519e4e32d24222e3",
+      "imageRelated": [
+        "https://cf.shopee.vn/file/db85a18d4beb307b519e4e32d24222e3",
+        "https://cf.shopee.vn/file/9f6eb81d74acf1d20f5186235d2ab4a1",
+        "https://cf.shopee.vn/file/45ca7930256356bff2a2d3cbd9226549"
+      ],
+      "sold": 4,
+      "dateAdd": 1660614884537,
+      "id": 1
+    },
+    {
+      "productName": "Áo thun unisex",
+      "price": 19,
+      "quantity": 1997,
+      "gender": [
+        "male",
+        "female"
+      ],
+      "size": [
+        "m",
+        "l"
+      ],
+      "color": [
+        "white",
+        "pink"
+      ],
+      "categoryId": 1,
+      "description": "Áo unisex ",
+      "image": "https://cf.shopee.vn/file/1d33bcd9977a02c305fa241575bad7de",
+      "imageRelated": [
+        "https://cf.shopee.vn/file/1d33bcd9977a02c305fa241575bad7de",
+        "https://cf.shopee.vn/file/d286ba5ac41f6c76d42e29d9e5418755",
+        "https://cf.shopee.vn/file/ebdb8b370cc2f7a7d90b0b8911d53d20"
+      ],
+      "sold": 3,
+      "dateAdd": 1660615822828,
+      "id": 2
+    },
+    {
+      "productName": "Quần jogger kaki",
+      "price": 99,
+      "quantity": 4994,
+      "gender": [
+        "male"
+      ],
+      "size": [
+        "m",
+        "l",
+        "xl"
+      ],
+      "color": [
+        "pink",
+        "yellow",
+        "black"
+      ],
+      "categoryId": 2,
+      "description": "Quần đó",
+      "image": "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+      "imageRelated": [
+        "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+        "https://cf.shopee.vn/file/d9423480b365d1b104e6d9c12850757c",
+        "https://cf.shopee.vn/file/4e7d4f7149c5fc51447013254acd42b1"
+      ],
+      "sold": 6,
+      "dateAdd": 1660615920449,
+      "id": 3
+    },
+    {
+      "productName": "Giày cloudfoam",
+      "price": 599,
+      "quantity": 994,
+      "gender": [
+        "male",
+        "female"
+      ],
+      "size": [
+        "m",
+        "xl"
+      ],
+      "color": [
+        "blue",
+        "yellow"
+      ],
+      "categoryId": 4,
+      "description": "GIày gì đó",
+      "image": "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+      "imageRelated": [
+        "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+        "https://cf.shopee.vn/file/2a49c91d2d4b3a012bba40a31a016b49",
+        "https://cf.shopee.vn/file/45e6ba7c1736806d3abdae87f36b41e0"
+      ],
+      "sold": 6,
+      "dateAdd": 1660616045798,
+      "id": 4
+    },
+    {
+      "productName": "Mũ Ace",
+      "price": 20,
+      "quantity": 2999,
+      "gender": [
+        "male"
+      ],
+      "size": [
+        "m",
+        "xl"
+      ],
+      "color": [
+        "purple",
+        "white",
+        "blue"
+      ],
+      "categoryId": 3,
+      "description": "Mũ của ace",
+      "image": "https://cf.shopee.vn/file/87cf4d568d79bf6ce85a5a2b3e9c8880",
+      "imageRelated": [
+        "https://cf.shopee.vn/file/87cf4d568d79bf6ce85a5a2b3e9c8880",
+        "https://cf.shopee.vn/file/87cf4d568d79bf6ce85a5a2b3e9c8880",
+        "https://cf.shopee.vn/file/87cf4d568d79bf6ce85a5a2b3e9c8880"
+      ],
+      "sold": 1,
+      "dateAdd": 1660616134505,
+      "id": 5
+    },
+    {
+      "productName": "Áo sơ mi kate",
+      "price": 45,
+      "quantity": 989,
+      "gender": [
+        "male"
+      ],
+      "size": [
+        "m",
+        "l"
+      ],
+      "color": [
+        "white",
+        "purple",
+        "blue"
+      ],
+      "categoryId": 1,
+      "description": "Áo sơ mi nam trơn vải kate",
+      "image": "https://cf.shopee.vn/file/0f3093b6d1b2d397f0d04ebf2f3606e7",
+      "imageRelated": [],
+      "sold": 11,
+      "dateAdd": 1660620384884,
+      "id": 6
+    },
+    {
+      "productName": "Áo Hà Nội",
+      "price": 12,
+      "quantity": 495,
+      "gender": [
+        "male",
+        "female"
+      ],
+      "size": [
+        "m",
+        "xl"
+      ],
+      "color": [
+        "white",
+        "purple",
+        "pink"
+      ],
+      "categoryId": 1,
+      "description": "ádsads",
+      "image": "https://cf.shopee.vn/file/9438737f1e050d61d207dd534df73c97",
+      "sold": 5,
+      "dateAdd": 1660620673093,
+      "id": 7
+    },
+    {
+      "productName": "Quần GUZADO",
+      "price": 8,
+      "quantity": 1000,
+      "gender": [
+        "male"
+      ],
+      "size": [
+        "l",
+        "xl"
+      ],
+      "color": [
+        "blue",
+        "black"
+      ],
+      "categoryId": 2,
+      "description": "ádsadsa",
+      "image": "https://cf.shopee.vn/file/aa02567dcbe0710ff304f42abbf06b24",
+      "sold": 0,
+      "dateAdd": 1660620974174,
+      "id": 8
+    },
+    {
+      "productName": "ầdfasd",
+      "price": 7,
+      "quantity": 7,
+      "gender": [
+        "male"
+      ],
+      "size": [
+        "m",
+        "l"
+      ],
+      "color": [
+        "black",
+        "pink"
+      ],
+      "categoryId": 5,
+      "description": "xcvxcvxcvxc",
+      "image": "https://cf.shopee.vn/file/e69694081b5d31ba9ccdd6b8c71f3c60",
+      "imageRelated": [
+        "https://cf.shopee.vn/file/e69694081b5d31ba9ccdd6b8c71f3c60"
+      ],
+      "sold": 0,
+      "dateAdd": 1660829186535,
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "categoryName": "Áo",
+      "id": 1
+    },
+    {
+      "categoryName": "Quần",
+      "id": 2
+    },
+    {
+      "categoryName": "Mũ",
+      "id": 3
+    },
+    {
+      "categoryName": "Giày",
+      "id": 4
+    },
+    {
+      "categoryName": "ÁO ácad",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "fullName": "HuyABC",
+      "password": "123123",
+      "role": "admin",
+      "address": "92 uang rung",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "id": 1,
+      "delivery": "fast",
+      "payment": "VISA",
+      "country": "jp"
+    },
+    {
+      "email": "user@gmail.com",
+      "fullName": "Ace",
+      "password": "1",
+      "role": "user",
+      "address": "Hoàng Diệu",
+      "phone": "0985123123",
+      "id": 2
+    },
+    {
+      "email": "nquanghuy112@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "nquanghuy112",
+      "role": "user",
+      "id": 3,
+      "phone": "0986156723",
+      "address": "asdasd",
+      "delivery": "fast",
+      "payment": "VISA",
+      "country": "jp"
+    },
+    {
+      "email": "nquanghuy1212@gmail.com",
+      "fullName": "vxcvxcvxv",
+      "password": "123123",
+      "role": "admin",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "VISA",
+      "country": "vn",
+      "status": "DELIVERED",
+      "cart": [
+        {
+          "productName": "Áo gió 2 mặt",
+          "price": 52,
+          "quantity": 2,
+          "gender": [
+            "male"
+          ],
+          "size": [
+            "m",
+            "l",
+            "s"
+          ],
+          "color": [
+            "green",
+            "pink",
+            "black"
+          ],
+          "categoryId": 1,
+          "description": "Là 1 cái áo",
+          "image": "https://cf.shopee.vn/file/db85a18d4beb307b519e4e32d24222e3",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/db85a18d4beb307b519e4e32d24222e3",
+            "https://cf.shopee.vn/file/9f6eb81d74acf1d20f5186235d2ab4a1",
+            "https://cf.shopee.vn/file/45ca7930256356bff2a2d3cbd9226549"
+          ],
+          "sold": 0,
+          "dateAdd": 1660614884537,
+          "id": 1,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1658347898000,
+      "total": 104,
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "MOMO",
+      "country": "cn",
+      "status": "CANCELED",
+      "cart": [
+        {
+          "productName": "Giày cloudfoam",
+          "price": 599,
+          "quantity": 3,
+          "gender": [
+            "male",
+            "female"
+          ],
+          "size": [
+            "m",
+            "xl"
+          ],
+          "color": [
+            "blue",
+            "yellow"
+          ],
+          "categoryId": 4,
+          "description": "GIày gì đó",
+          "image": "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+            "https://cf.shopee.vn/file/2a49c91d2d4b3a012bba40a31a016b49",
+            "https://cf.shopee.vn/file/45e6ba7c1736806d3abdae87f36b41e0"
+          ],
+          "sold": 0,
+          "dateAdd": 1660616045798,
+          "id": 4,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1650616639366,
+      "total": 1797,
+      "id": 2
+    },
+    {
+      "email": "user@gmail.com",
+      "fullName": "Ace",
+      "password": "1",
+      "role": "user",
+      "phone": "0985123123",
+      "address": "Hoàng Diệu",
+      "delivery": "normal",
+      "payment": "PAYPAL",
+      "country": "us",
+      "status": "DELIVERED",
+      "cart": [
+        {
+          "productName": "Quần jogger kaki",
+          "price": 99,
+          "quantity": 3,
+          "gender": [
+            "male"
+          ],
+          "size": [
+            "m",
+            "l",
+            "xl"
+          ],
+          "color": [
+            "pink",
+            "yellow",
+            "black"
+          ],
+          "categoryId": 2,
+          "description": "Quần đó",
+          "image": "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+            "https://cf.shopee.vn/file/d9423480b365d1b104e6d9c12850757c",
+            "https://cf.shopee.vn/file/4e7d4f7149c5fc51447013254acd42b1"
+          ],
+          "sold": 0,
+          "dateAdd": 1660615920449,
+          "id": 3,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 2,
+      "dateAdd": 1660616773149,
+      "total": 297,
+      "id": 3
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "normal",
+      "payment": "BANK",
+      "country": "gb",
+      "status": "CANCELED",
+      "cart": [
+        {
+          "productName": "Áo thun unisex",
+          "price": 19,
+          "quantity": 3,
+          "gender": [
+            "male",
+            "female"
+          ],
+          "size": [
+            "m",
+            "l"
+          ],
+          "color": [
+            "white",
+            "pink"
+          ],
+          "categoryId": 1,
+          "description": "Áo unisex ",
+          "image": "https://cf.shopee.vn/file/1d33bcd9977a02c305fa241575bad7de",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/1d33bcd9977a02c305fa241575bad7de",
+            "https://cf.shopee.vn/file/d286ba5ac41f6c76d42e29d9e5418755",
+            "https://cf.shopee.vn/file/ebdb8b370cc2f7a7d90b0b8911d53d20"
+          ],
+          "sold": 0,
+          "dateAdd": 1660615822828,
+          "id": 2,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1660616873493,
+      "total": 57,
+      "id": 4
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "MOMO",
+      "country": "vn",
+      "status": "DELIVERED",
+      "cart": [
+        {
+          "productName": "Áo sơ mi kate",
+          "price": 45,
+          "quantity": 8,
+          "gender": [
+            "male"
+          ],
+          "size": [
+            "m",
+            "l"
+          ],
+          "color": [
+            "white",
+            "purple",
+            "blue"
+          ],
+          "categoryId": 1,
+          "description": "Áo sơ mi nam trơn vải kate",
+          "image": "https://cf.shopee.vn/file/0f3093b6d1b2d397f0d04ebf2f3606e7",
+          "imageRelated": [],
+          "sold": 0,
+          "dateAdd": 1660620384884,
+          "id": 6,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1660739223781,
+      "total": 360,
+      "id": 5
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "MOMO",
+      "country": "vn",
+      "status": "DELIVERED",
+      "cart": [
+        {
+          "productName": "Quần jogger kaki",
+          "price": 99,
+          "quantity": 1,
+          "gender": [
+            "male"
+          ],
+          "size": [
+            "m",
+            "l",
+            "xl"
+          ],
+          "color": [
+            "pink",
+            "yellow",
+            "black"
+          ],
+          "categoryId": 2,
+          "description": "Quần đó",
+          "image": "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+            "https://cf.shopee.vn/file/d9423480b365d1b104e6d9c12850757c",
+            "https://cf.shopee.vn/file/4e7d4f7149c5fc51447013254acd42b1"
+          ],
+          "sold": 4,
+          "dateAdd": 1660615920449,
+          "id": 3,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1660740241177,
+      "total": 99,
+      "id": 6
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "BANK",
+      "country": "vn",
+      "status": "CANCELED",
+      "cart": [
+        {
+          "productName": "Áo Hà Nội",
+          "price": 12,
+          "quantity": 1,
+          "gender": [
+            "male",
+            "female"
+          ],
+          "size": [
+            "m",
+            "xl"
+          ],
+          "color": [
+            "white",
+            "purple",
+            "pink"
+          ],
+          "categoryId": 1,
+          "description": "ádsads",
+          "image": "https://cf.shopee.vn/file/9438737f1e050d61d207dd534df73c97",
+          "sold": 0,
+          "dateAdd": 1660620673093,
+          "id": 7,
+          "valueColor": "brown",
+          "valueSize": "s"
+        },
+        {
+          "productName": "Giày cloudfoam",
+          "price": 599,
+          "quantity": 2,
+          "gender": [
+            "male",
+            "female"
+          ],
+          "size": [
+            "m",
+            "xl"
+          ],
+          "color": [
+            "blue",
+            "yellow"
+          ],
+          "categoryId": 4,
+          "description": "GIày gì đó",
+          "image": "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+            "https://cf.shopee.vn/file/2a49c91d2d4b3a012bba40a31a016b49",
+            "https://cf.shopee.vn/file/45e6ba7c1736806d3abdae87f36b41e0"
+          ],
+          "sold": 3,
+          "dateAdd": 1660616045798,
+          "id": 4,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1660787586600,
+      "total": 1210,
+      "id": 7
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "VISA",
+      "country": "vn",
+      "status": "CANCELED",
+      "cart": [
+        {
+          "productName": "Áo sơ mi kate",
+          "price": 45,
+          "quantity": 3,
+          "gender": [
+            "male"
+          ],
+          "size": [
+            "m",
+            "l"
+          ],
+          "color": [
+            "white",
+            "purple",
+            "blue"
+          ],
+          "categoryId": 1,
+          "description": "Áo sơ mi nam trơn vải kate",
+          "image": "https://cf.shopee.vn/file/0f3093b6d1b2d397f0d04ebf2f3606e7",
+          "imageRelated": [],
+          "sold": 8,
+          "dateAdd": 1660620384884,
+          "id": 6,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1660787801863,
+      "total": 135,
+      "id": 8
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "HuyABC",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "VISA",
+      "country": "jp",
+      "status": "DELIVERED",
+      "cart": [
+        {
+          "productName": "Giày cloudfoam",
+          "price": 599,
+          "quantity": 1,
+          "gender": [
+            "male",
+            "female"
+          ],
+          "size": [
+            "m",
+            "xl"
+          ],
+          "color": [
+            "blue",
+            "yellow"
+          ],
+          "categoryId": 4,
+          "description": "GIày gì đó",
+          "image": "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/3c7c213f7a89ef714215162239e02871",
+            "https://cf.shopee.vn/file/2a49c91d2d4b3a012bba40a31a016b49",
+            "https://cf.shopee.vn/file/45e6ba7c1736806d3abdae87f36b41e0"
+          ],
+          "sold": 5,
+          "dateAdd": 1660616045798,
+          "id": 4,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1660787940711,
+      "total": 599,
+      "id": 9
+    },
+    {
+      "email": "nquanghuy112@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "nquanghuy112",
+      "role": "user",
+      "phone": "0986156723",
+      "address": "asdasd",
+      "delivery": "fast",
+      "payment": "VISA",
+      "country": "jp",
+      "status": "CANCELED",
+      "cart": [
+        {
+          "productName": "Quần jogger kaki",
+          "price": 99,
+          "quantity": 1,
+          "gender": [
+            "male"
+          ],
+          "size": [
+            "m",
+            "l",
+            "xl"
+          ],
+          "color": [
+            "pink",
+            "yellow",
+            "black"
+          ],
+          "categoryId": 2,
+          "description": "Quần đó",
+          "image": "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+          "imageRelated": [
+            "https://cf.shopee.vn/file/ab3d7df000fc8bcb002da2725f04d1fb",
+            "https://cf.shopee.vn/file/d9423480b365d1b104e6d9c12850757c",
+            "https://cf.shopee.vn/file/4e7d4f7149c5fc51447013254acd42b1"
+          ],
+          "sold": 5,
+          "dateAdd": 1660615920449,
+          "id": 3,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 3,
+      "dateAdd": 1660789407737,
+      "total": 99,
+      "id": 10
+    },
+    {
+      "email": "admin@gmail.com",
+      "fullName": "HuyABC",
+      "password": "123123",
+      "role": "admin",
+      "address": "Việt nam",
+      "phone": "0365892505",
+      "avatar": "https://cf.shopee.vn/file/3a0d81b036402ded6c5138b7163bade2",
+      "delivery": "fast",
+      "payment": "VISA",
+      "country": "jp",
+      "status": "SHIPPING",
+      "cart": [
+        {
+          "productName": "Áo Hà Nội",
+          "price": 12,
+          "quantity": 4,
+          "gender": [
+            "male",
+            "female"
+          ],
+          "size": [
+            "m",
+            "xl"
+          ],
+          "color": [
+            "white",
+            "purple",
+            "pink"
+          ],
+          "categoryId": 1,
+          "description": "ádsads",
+          "image": "https://cf.shopee.vn/file/9438737f1e050d61d207dd534df73c97",
+          "sold": 1,
+          "dateAdd": 1660620673093,
+          "id": 7,
+          "valueColor": "brown",
+          "valueSize": "s"
+        }
+      ],
+      "userId": 1,
+      "dateAdd": 1660821377961,
+      "total": 48,
+      "id": 11
+    }
+  ],
+  "ratings": [
+    {
+      "rate": 5,
+      "comment": "Tốt",
+      "productId": 1,
+      "dateAdd": "8/16/2022",
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "admin",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "rate": 1,
+      "comment": "Tệ\n",
+      "productId": 1,
+      "dateAdd": "8/16/2022",
+      "email": "admin@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "admin",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "rate": 5,
+      "comment": "toots",
+      "productId": 5,
+      "dateAdd": "8/18/2022",
+      "email": "nquanghuy112@gmail.com",
+      "password": "Huygt123@",
+      "confirmPassword": "Huygt123@",
+      "term": true,
+      "fullName": "nquanghuy112",
+      "role": "user",
+      "id": 3
+    }
+  ]
+}

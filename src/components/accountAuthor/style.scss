@@ -1,0 +1,32 @@
+@import "../../styles/responsive";
+.author-avata_header {
+    font-size: 1.6rem;
+    .author-main_header {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 15px 5px;
+        width: calc(100vw / 4.5);
+        padding: 5px;
+        border-radius: 4px;
+        background-color: var(--white-color);
+        .author-sub {
+            padding: 10px;
+        }
+        .author-sub:hover {
+            background-color: var(--color-light-gray);
+        }
+        .author_logout {
+            color: var(--color-gray);
+        }
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: var(--text-color);
+    }
+    @include maxw(767px) {
+        .author-main_header {
+            width: 130px;
+            left: 50%;
+            transform: translateX(-50px);
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.slider_home {
+    background-repeat: no-repeat;
+    background-position: center bottom 30%;
+    background-size: cover;
+    height: 600px;
+
+    .silder-slogan__wrapp {
+        padding: 50px;
+        margin: 0;
+        max-width: 650px;
+        width: 100%;
+        font-size: 1.6rem;
+
+        position: relative;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .slogan-title {
+            // color: var(--text-color);
+            font-weight: 500;
+            line-height: 1.4;
+            font-size: 5rem;
+
+            font-family: "Playfair Display", serif;
+        }
+        .slogan_sub {
+            // color: var(--text-color);
+            line-height: 1.8;
+        }
+        .btn-toShop {
+            display: inline-block;
+            margin-top: 40px;
+            font-weight: 300;
+            padding: 10px 35px;
+            color: var(--white-color);
+            background: var(--black-color);
+        }
+    }
+}

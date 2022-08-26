@@ -1,0 +1,143 @@
+.world-map {
+  display: flex;
+
+  svg {
+    /* stroke: #fff; */
+
+    // All layers are just path elements
+    path {
+      fill: #e4e4e4;
+      cursor: pointer;
+      outline: none;
+
+      // When a layer is hovered
+      &:hover {
+        fill: #4ba6d6;
+      }
+
+      // When a layer is focused.
+      &:focus {
+        fill: #4ba6d6;
+      }
+
+      // When a layer is 'checked' (via checkedLayers prop).
+      &[aria-checked="true"] {
+        fill: #3B7DDD;
+      }
+
+      // When a layer is 'selected' (via currentLayers prop).
+      &[aria-current="true"] {
+        fill: rgba(56, 43, 168, 0.83);
+      }
+    }
+  }
+}
+
+.loading-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--black-color);
+}
+
+table,
+table:hover {
+  background: var(--white-color);
+  color: var(--black-color);
+
+  thead {
+    .ant-table-cell {
+      background: var(--white-color);
+      color: var(--black-color);
+    }
+  }
+
+}
+
+
+
+.card-title {
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  line-height: 30px;
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  font-weight: 300;
+  margin-top: -0.375rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #99abb4;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 1.6rem;
+}
+
+.dynamic-delete-button {
+  position: relative;
+  top: 4px;
+  margin: 0 8px;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.dynamic-delete-button:hover {
+  color: #777;
+}
+
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+[data-theme="dark"] .dynamic-delete-button {
+  color: rgba(255, 255, 255, .45);
+}
+
+[data-theme="dark"] .dynamic-delete-button:hover {
+  color: rgba(255, 255, 255, .65);
+}
+
+.col-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ant-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  font-size: 1.7rem;
+}
+
+.ant-btn-primary {
+  background: #74b9ff;
+}
+
+@media only screen and (max-width: 600px) {
+  .world-map {
+    flex-direction: column;
+  }
+
+  .ant-table-content {
+    overflow-x: auto;
+  }
+}

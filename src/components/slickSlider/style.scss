@@ -1,0 +1,28 @@
+.slide_nav_wrapp {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    // display: flex;
+}
+.slide_nav {
+    // display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.btn-slider_nav {
+    font-size: 4rem;
+    color: var(--text-color);
+    top: 50%;
+    padding: 15px;
+    background-color: var(--color-light-white);
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 5;
+}
+.btn-left {
+    left: 0;
+}
+.btn-right {
+    right: 8px;
+}

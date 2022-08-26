@@ -1,0 +1,73 @@
+@import "../../styles/responsive";
+.shop-woman {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--white-color);
+
+    .woman-contail-top {
+        display: flex;
+        margin: 100px 0;
+        & > div {
+            flex: 1;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.2s linear;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+        }
+    }
+    .banner {
+        background-image: url("../../assets/image/banner16.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        background-position: center;
+
+        position: relative;
+        .banner-conten {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            max-width: 800px;
+            width: 100%;
+            color: var(--white-color);
+            text-align: center;
+
+            text-shadow: 0 13.36px 8.896px var(--text-color), 0 -2px 1px var(--color-gray);
+            & h3 {
+                text-transform: uppercase;
+                font-size: 4rem;
+                font-weight: 500;
+            }
+            & h2 {
+                margin-top: 20px;
+                font-size: 6rem;
+                font-family: "Playfair Display", serif;
+            }
+        }
+    }
+    .product-top {
+        margin: 100px 0;
+    }
+    @include maxw(767px) {
+        .highlight-wrapp {
+            display: none;
+        }
+        .woman-contail-top {
+            display: none;
+        }
+        .banner {
+            margin-top: 50px;
+        }
+    }
+}

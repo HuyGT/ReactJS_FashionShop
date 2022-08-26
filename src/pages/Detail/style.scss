@@ -1,0 +1,251 @@
+@import "../../styles/responsive";
+
+.detail-main {
+    margin-bottom: 100px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    .detail-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        .title {
+            color: var(--text-color);
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .detail_mail-btns {
+            --p-y: 7px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .btn-to_cart {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                text-transform: uppercase;
+                border: 1px solid var(--black-color);
+                padding: var(--p-y) 20px;
+            }
+            .btn-hear {
+                padding: var(--p-y);
+                border-radius: 100rem;
+                transition: 0.3s linear;
+            }
+            .active-hear {
+                color: var(--white-color);
+                background-color: var(--color-red);
+            }
+        }
+    }
+
+    .detail-content {
+        display: flex;
+        gap: 40px;
+
+        .detail-image {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+
+            .product-detail__nav {
+                opacity: 0.7;
+            }
+            .product-detail__nav.active {
+                opacity: 1;
+            }
+        }
+        .detail-main-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            .reviews {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .title-name {
+                color: var(--text-color);
+                margin-top: 10px;
+                font-size: 2.5rem;
+                font-weight: 500;
+                line-height: 1.5;
+            }
+            .price {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                position: relative;
+                & span {
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-weight: 500;
+                }
+            }
+            .desc-product {
+                color: var(--text-color);
+                margin: 20px 0;
+            }
+            .btn-guide,
+            .btn-add-cart {
+                text-transform: uppercase;
+                border: 1px solid var(--black-color);
+            }
+            .btn-guide {
+                margin-right: 20px;
+                padding: 2px 15px;
+                transition: 0.1s linear;
+            }
+            .btn-guide.active {
+                color: var(--white-color);
+                background-color: var(--black-color);
+            }
+            .btn-guide:hover {
+                color: var(--white-color);
+                background-color: var(--color-light-black);
+            }
+            .btn-add-cart {
+                color: var(--white-color);
+                background-color: var(--black-color);
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+            .btn-add-cart__wish-List {
+                border: 1px solid var(--black-color);
+            }
+        }
+        .radio {
+            display: none;
+        }
+        .radio-label {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 2rem;
+            color: var(--white-color);
+            background-color: var(--color-light-gray);
+            cursor: pointer;
+            margin: 0 1rem;
+            box-shadow: 0 0 0 4px var(--color-light-gray);
+            transition: all 0.25s linear;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .radio-label.active {
+            box-shadow: 0 0 0 4px, 0 0 0 6px var(--color-pink);
+            background-color: #fd656b;
+        }
+    }
+    .detail-conten-reviews {
+        color: var(--text-color);
+        margin: 70px 0;
+        .reviews-title {
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            font-size: 3.5rem;
+        }
+        .buyre-name {
+            color: var(--text-color);
+        }
+        .reviews-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+        .btn-load-reviews {
+            padding: 15px;
+            color: var(--white-color);
+            background-color: var(--color-light-black);
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+        .formRating {
+            background: var(--color-pink);
+            overflow: hidden;
+            transition: all 0.3s ease-in;
+
+            .submitRating {
+                background-color: var(--black-color);
+                color: var(--white-color);
+            }
+        }
+        .formRating-height {
+            height: auto;
+        }
+    }
+    .title-also_like {
+        color: var(--text-color);
+    }
+    @include maxw(1023px) {
+        .detail-content {
+            flex-direction: column;
+        }
+    }
+    @include maxw(767px) {
+        .detail-image {
+            flex-direction: column-reverse;
+            .detail-sub-image {
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+}
+.detail-footer {
+    .button-link {
+        flex: 1;
+        color: var(--black-color);
+        padding: 15px 30px;
+        border-radius: 4px;
+        background-color: var(--color-pink);
+        cursor: pointer;
+        font-weight: 300;
+        outline: none;
+        border: none;
+        font-size: 2rem;
+        position: relative;
+        overflow: hidden;
+        backface-visibility: hidden;
+        text-transform: uppercase;
+    }
+
+    .button-link p {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        transition: all 0.2s linear;
+        backface-visibility: hidden;
+    }
+
+    .button-link a {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        transition: all 0.25s ease-in;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-link:hover a {
+        top: 0;
+    }
+
+    .button-link:hover p {
+        transform: translateY(300%);
+    }
+    @include maxw(1023px) {
+        display: none;
+    }
+}

@@ -1,0 +1,26 @@
+.card {
+    width: 90%;
+
+    .card-title {
+        color: #939ba2;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .stat-icon {
+        font-size: 2rem;
+        align-items: center;
+        border-radius: 50%;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        width: 40px;
+    }
+    h1{
+        font-size: 2rem;
+        color: var(--black-color);
+    }
+    span{
+        font-size: 1.6rem;
+    }
+}

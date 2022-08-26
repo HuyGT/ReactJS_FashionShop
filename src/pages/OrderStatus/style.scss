@@ -1,0 +1,67 @@
+@import "../../styles/responsive";
+.order-status {
+    font-size: 1.6rem;
+    background-color: var(--color-light-blue);
+    padding: 50px 0;
+    color: var(--text-color);
+    overflow-x: auto;
+
+    .order-status-wrapp {
+        padding: 40px;
+        border-radius: 6px;
+        margin-left: auto;
+        width: calc(100% - (var(--siderbar-width) + 50px));
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background-color: var(--white-color);
+        .title {
+            display: inline-block;
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: var(--text-color);
+        }
+        .title-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 2.5rem;
+        }
+        .order-status {
+            background-color: var(--white-color);
+        }
+    }
+    .table-order table {
+        color: var(--text-color);
+        background-color: var(--white-color);
+        box-shadow: rgba(149, 157, 165, 0.381) 0px 8px 24px;
+    }
+    .table-order table thead th {
+        background-color: var(--white-color);
+        color: var(--text-color);
+        &:hover {
+            background-color: var(--white-color);
+            color: var(--text-color);
+        }
+    }
+
+    .ant-table-column-sort {
+        background-color: var(--white-color);
+        color: var(--text-color);
+    }
+
+    .table-order table tbody tr:hover {
+        color: #000;
+    }
+    @include maxw(1023px) {
+        .order-status-wrapp {
+            width: 100%;
+        }
+    }
+}
+.ant-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }

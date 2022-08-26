@@ -1,0 +1,52 @@
+@import "../../styles/responsive";
+
+.profile {
+    font-size: 1.6rem;
+    background-color: var(--color-light-blue);
+    padding: 50px 0;
+    min-height: 100vh;
+    color: var(--text-color);
+
+    .profile-main-wrapp {
+        padding: 40px;
+        border-radius: 6px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background-color: var(--white-color);
+        margin-left: auto;
+        width: calc(100% - (var(--siderbar-width) + 50px));
+        .title {
+            color: var(--text-color);
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            cursor: pointer;
+            // display: flex;
+            // align-items: center;
+            // gap: 10px;
+        }
+        @include maxw(1023px) {
+            width: 100%;
+        }
+        @include maxw(767px) {
+            width: 100%;
+            .profile-main {
+                flex-direction: column;
+                overflow: hidden;
+            }
+        }
+    }
+    .profile-main {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        .btn-submit {
+            width: 100%;
+            margin-top: 40px;
+            border-radius: 4px;
+            padding: 15px;
+            display: block;
+            background-color: #6a5af9;
+            color: #fff;
+        }
+    }
+}
