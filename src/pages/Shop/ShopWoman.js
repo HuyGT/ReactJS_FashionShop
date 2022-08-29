@@ -49,13 +49,13 @@ const ShopWoman = () => {
   }, [dispatch]);
 
   const handleCallAllApi = () => {
-    dispatch(actGetProductByGender("woman"));
+    dispatch(actGetProductByGender("female"));
   };
   const handleCallPage1 = (page) => {
     const data = {
       page,
       limit,
-      gender: "woman",
+      gender: "female",
     };
     dispatch(actGetProductByPage(data));
   };
@@ -63,7 +63,7 @@ const ShopWoman = () => {
     const data = {
       page,
       limit,
-      gender: "woman",
+      gender: "female",
     };
     dispatch(actGetProductByPage(data));
   };

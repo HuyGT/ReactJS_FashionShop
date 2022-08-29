@@ -57,13 +57,13 @@ const ShopMan = () => {
   }, [isLoading]);
 
   const handleCallAllApi = () => {
-    dispatch(actGetProductByGender("man"));
+    dispatch(actGetProductByGender("male"));
   };
   const handleCallPage1 = (page) => {
     const data = {
       page,
       limit,
-      gender: "man",
+      gender: "male",
     };
     dispatch(actGetProductByPage(data));
   };
@@ -71,7 +71,7 @@ const ShopMan = () => {
     const data = {
       page,
       limit,
-      gender: "man",
+      gender: "male",
     };
     dispatch(actGetProductByPage(data));
   };
