@@ -43,7 +43,7 @@ const ShopWoman = () => {
     const data = {
       page: 1,
       limit,
-      gender: "woman",
+      gender: "female",
     };
     dispatch(actGetProductByPage(data));
   }, [dispatch]);

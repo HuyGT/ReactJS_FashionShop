@@ -39,7 +39,7 @@ const ShopMan = () => {
     const data = {
       page: 1,
       limit,
-      gender: "man",
+      gender: "male",
     };
     dispatch(actGetProductByPage(data));
   }, [dispatch]);
